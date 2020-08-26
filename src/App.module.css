@@ -1,0 +1,27 @@
+body{
+background-image:url("https://cdn.pixabay.com/photo/2020/04/03/19/02/virus-4999857_1280.png");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.image {
+    width: 370px;
+    margin-top: 50px;
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  
+    .image {
+      width: 100%;
+    }
+  }
